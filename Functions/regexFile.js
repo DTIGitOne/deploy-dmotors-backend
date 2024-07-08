@@ -1,0 +1,22 @@
+// check if email is valid //////////////////////////////////////////////////////////
+export const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+
+//check FAKE VIN //////////////////////////////////////////////////////////
+
+export const VINRegex = /^[A-HJ-NPR-Z0-9]{17}$/;
+
+// check first registration //////////////////////////////////////////////////////////
+
+export const firstRegistrationRegex = /^\d{2}\/\d{4}$/;
+
+// check for letters //////////////////////////////////////////////////////////
+
+export const letterCheckRegex =  /^[A-Za-z]+$/;
+
+// mongo string //////////////////////////////////////////////////////////
+
+export const mongoStringRegex = /^[0-9a-fA-F]{24}$/;
+
+// code regex 
+
+export const numberRegex = /^\d{6}$/;
