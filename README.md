@@ -1,21 +1,19 @@
-# This is the backend component of my DriveMotors website.
+## DEPLOYED APP
+https://drivemotors.netlify.app
 
-# Check out the website:
-https://668bf658b43fe141d4e8c738--iridescent-profiterole-2888f2.netlify.app
+(Loading might take 1 minute becouse of the sleeping server status)
 
-Loading might take 1 minute becouse of the sleeping server status
+(All of the files are visible including the .env file which only stores the url's meant for global use)
 
-To run this app:
+## THE FRONTEND REPO
+https://github.com/DTIGitOne/dmotors-frontend2
 
-# -First you cant use this server becouse the .env file is hidden and the data inside of there is required to run this server.
-If you have been given access to the .env variables then procced
+## ABOUT
+The about is written in the frontend repositorie README.md file.
 
-# -Second is to clone this repository on to your machine
+## TECHNOLOGIES & TOOLS & LIBRARIES
+## - Coding:
+Express.js, sharp, node-mailer, multer, mongoose, JWT, dotenv, crypto, cors, bcrypt, aws s3 bucket.
 
-# -Third: When installed inside of the Terminal run these commands in order:
-
--npm install
-
-# -Final step is to run the server using:
-
--npm run start
+## -Tools:
+Mongo Compass, Postman.
